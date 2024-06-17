@@ -25,8 +25,6 @@ const Register = () => {
       setError('Passwords do not match');
       return;
     }
-    // Add registration logic here
-    // For example, you can call an API to register the user
   };
 
   if (isAuthenticated) {
